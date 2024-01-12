@@ -6,11 +6,11 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/Cetin-ARAS/NewProjectGo/routes"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	"github.com/yourusername/yourprojectname/routes"
 )
 
 var db *gorm.DB

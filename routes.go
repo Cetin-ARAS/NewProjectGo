@@ -3,8 +3,8 @@
 package routes
 
 import (
+	"github.com/Cetin-ARAS/NewProjectGo/main"
 	"github.com/go-chi/chi"
-	"github.com/yourusername/yourprojectname/main"
 )
 
 // RegisterUserRoutes registers user-related routes
